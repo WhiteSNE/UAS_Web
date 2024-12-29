@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../fonts/AegirSeaborn.ttf') format('truetype'); /* Correct format and path */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont', serif; /* Use the correct font-family name */
+}
