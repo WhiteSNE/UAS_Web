@@ -7,4 +7,30 @@
 
 body {
     font-family: 'MyCustomFont', serif; /* Use the correct font-family name */
+    color: white;
+    background-color: #5E686D;
+    padding-top: 30px;
+}
+.carousel {
+    height: 500px; /* Set a fixed height for the carousel */
+    overflow: hidden; /* Hide overflow to prevent cut-off */
+}
+
+.carousel-inner {
+    height: 100%; /* Ensure the inner container takes full height */
+}
+
+.carousel-item {
+    height: 100%; /* Ensure each carousel item takes full height */
+}
+
+.carousel-item img {
+    width: 100%; /* Make the image take the full width of the carousel */
+    height: 100%; /* Make the image take the full height of the carousel */
+    object-fit: cover; /* Use 'contain' if you want the full image visible */
+    object-position: center; /* Center the image */
+}
+
+main{
+    padding-top: 50px;
 }
